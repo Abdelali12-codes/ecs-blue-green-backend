@@ -1,5 +1,6 @@
 {
     "executionRoleArn": "arn:aws:iam::080266302756:role/ecsTaskExecutionRole",
+    "taskRoleArn": "arn:aws:iam::080266302756:role/aws-ecs-task-role",
     "containerDefinitions": [
         {
             "name": "ecs-codepipeline-container",
